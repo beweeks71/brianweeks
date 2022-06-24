@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -1290,4 +1290,16 @@ input[type="text"] {
   opacity: 0;
 }
 
+.margin {
+  margin-left: 300px;
+}
+.margin2 {
+
+  margin-left: 300px;
+  padding-left: 300px;
+}
+.margin3 {
+  margin-left: 500px;
+  padding-left: 500px;
+}
 /*# sourceMappingURL=style.css.map */
