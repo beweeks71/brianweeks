@@ -375,27 +375,33 @@
 		</div>
 		<div class="choose animate-box">
 			<h2>Contact</h2>
-			<form action="mailto:Brian.Weeks@protonmail.com">
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-					</div>
+
+			<form action="mailto:Brian.Weeks@protonmail.com"
+			method = "POST"
+			enctype="multipart/form-data"
+			name="EmailForm">
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<input type="text" id="fname" class="form-control" name="FirstName" placeholder="Your first name">
 				</div>
+			</div>
+
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+						<input type="text" id="lname" class="form-control" name="LastName" placeholder="Your last name">
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="text" id="email" class="form-control" placeholder="Your email address">
+						<input type="text" id="email" class="form-control" name="EmailAddress" placeholder="Your email address">
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Subject of this message">
+						<input type="text" id="subject" class="form-control" name="Subject" placeholder="Subject of this message">
 					</div>
 				</div>
 
